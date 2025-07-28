@@ -14,6 +14,7 @@
                     <?php if ($_SESSION['role'] === 'admin'): ?>
                         <li><a href="users.php">Users</a></li>
                         <li><a href="children.php">Children</a></li>
+                        <li><a href="parent_child_management.php">Parent-Child</a></li>
                         <li><a href="cases.php">Cases</a></li>
                         <li><a href="reports.php">Reports</a></li>
                         <li><a href="settings.php">Settings</a></li>
